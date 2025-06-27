@@ -1,0 +1,27 @@
+{
+  "name": "telecmi-vapi-relay",
+  "version": "1.0.0",
+  "description": "WebSocket relay bridge between TeleCMI and Vapi",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.6.0",
+    "node-fetch": "^3.3.2",
+    "ws": "^8.13.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "websocket",
+    "telecmi",
+    "vapi",
+    "relay",
+    "nodejs"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
